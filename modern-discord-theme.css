@@ -3,25 +3,25 @@
 :root {
 
     /* Discord Variables */
-    --modal-background: rgba(40, 42, 44, .8);
-    --background-primary: rgba(30, 32, 34, .8);
-    --background-secondary: rgba(30, 32, 34, .6);
-    --background-secondary-alt: rgba(20, 22, 24, .6);
-    --background-tertiary: rgba(20, 22, 24, .5);
-    --background-floating: rgba(30, 32, 34, .8);
-    --background-accent: rgba(60, 62, 64, .8);
+    --modal-background: rgba(40, 42, 44, 1);
+    --background-primary: rgba(30, 32, 34, 1);
+    --background-secondary: rgba(30, 32, 34, 1);
+    --background-secondary-alt: rgba(20, 22, 24, 1);
+    --background-tertiary: rgba(20, 22, 24, 1);
+    --background-floating: rgba(30, 32, 34, 1);
+    --background-accent: rgba(60, 62, 64, 1);
 
-    --background-modifier-accent: rgba(60, 62, 64, .6);
-    --background-modifier-hover: rgba(40, 100, 200, .4);
-    --background-modifier-selected: rgba(60, 62, 64, .6);
+    --background-modifier-accent: rgba(60, 62, 64, 1);
+    --background-modifier-hover: rgba(40, 100, 200, 1);
+    --background-modifier-selected: rgba(60, 62, 64, 1);
 
-    --brand-experiment: rgba(40, 100, 200, .8);
-    --button-danger-background: rgba(200, 50, 50, .8);
+    --brand-experiment: rgba(40, 100, 200, 1);
+    --button-danger-background: rgba(200, 50, 50, 1);
     --interactive-normal: rgba(200, 200, 200);
-    --modal-footer-background: rgba(30, 32, 34, 0.4);
+    --modal-footer-background: rgba(30, 32, 34, 1);
 
-    --button-secondary-background: rgba(60, 62, 66, .8);
-    --button-secondary-background-hover: rgba(80, 82, 86, .8);
+    --button-secondary-background: rgba(60, 62, 66, 1);
+    --button-secondary-background-hover: rgba(80, 82, 86, 1);
 
     /* MixPack Variables */
 
@@ -43,7 +43,7 @@ body {
 }
 
 .appMount-2yBXZl {
-    background: black url("https://images.pexels.com/photos/2885320/pexels-photo-2885320.jpeg") center/cover no-repeat;
+    /*background: black url("https://images.pexels.com/photos/2885320/pexels-photo-2885320.jpeg") center/cover no-repeat;*/
 }
 
 .app-2CXKsg {
@@ -51,7 +51,7 @@ body {
 }
 
 .bg-1QIAus {
-    background: rgba(40, 42, 44, 0.8);
+    background: rgba(40, 42, 44, 1);
 }
 
 .layer-86YKbF {
@@ -344,7 +344,7 @@ body {
 }
 
 .sidebar-1tnWFu .wrapper-NhbLHG.modeConnected-NrO4cP {
-    --Sidebar-Channel-BG: rgba(100, 50, 200, .4);
+    --Sidebar-Channel-BG: rgba(48, 221, 48, 0.5);
     --Sidebar-Channel-Color: #fff;
 }
 
@@ -596,7 +596,7 @@ body {
 }
 
 #app-mount .title-31SJ6t .searchBar-jGtisZ {
-    background: rgba(10, 12, 14, 0.3);
+    background: rgba(10, 12, 14, 1);
 }
 
 /* Chat  --------------------------------------------------------------------------------------- */
@@ -642,7 +642,7 @@ body {
     border-radius: 0;
     padding: 4px;
     left: 0;
-    background: rgba(60, 62, 64, 0.9);
+    background: rgba(60, 62, 64, 1);
 }
 
 .chatContent-3KubbW .messagesWrapper-RpOMA3 .newMessagesBar-1hF-9G {
@@ -908,7 +908,7 @@ body {
 }
 
 .applicationStore-2nk7Lo .headerBar-1dSpQr {
-    background: rgba(60, 62, 64, 0.35);
+    background: rgba(60, 62, 64, 1);
 }
 
 .applicationStore-2nk7Lo .headerBar-1dSpQr .children-3xh0VB:after {
@@ -922,7 +922,7 @@ body {
 /* Boost Server Page --------------------------------------------------------------------------------------- */
 
 #app-mount .perksModal-CLcR1c {
-    background-color: rgba(40, 42, 44, .8);
+    background-color: rgba(40, 42, 44, 1);
 }
 
 .perksModal-CLcR1c .perksModalContentWrapper-3RHugb {
@@ -970,7 +970,7 @@ body {
 }
 
 .perksModal-CLcR1c .tierMarkerBackground-G8FoN4 {
-    background-color: rgba(50, 52, 54, .9);
+    background-color: rgba(50, 52, 54, 1);
 }
 
 .perksModal-CLcR1c .tierBody-3ju-rc {
@@ -1000,7 +1000,7 @@ body {
 }
 
 #app-mount .standardSidebarView-E9Pc3j {
-    background: rgba(40, 42, 44, 0.8);
+    background: rgba(40, 42, 44, 1);
 }
 
 #app-mount .standardSidebarView-E9Pc3j .contentRegion-3HkfJJ {
@@ -1013,7 +1013,7 @@ body {
 
 #app-mount .standardSidebarView-E9Pc3j .contentRegion-3HkfJJ .bar-1Bhnl9,
 #app-mount .standardSidebarView-E9Pc3j .contentRegion-3HkfJJ .markDash-yk2kJ- {
-    background: rgba(80, 82, 84, 0.8);
+    background: rgba(80, 82, 84, 1);
 }
 
 #app-mount .standardSidebarView-E9Pc3j .contentRegion-3HkfJJ .contentRegionScroller-2_GT_N .itemFilled-1cPbtg {
@@ -1175,13 +1175,13 @@ body {
 }
 
 .searchResultsWrap-5RVOkx {
-    background: transparent;
+    /*background: transparent;*/
 }
 
 /* Memberlist UserPopout --------------------------------------------------------------------------------------- */
 
 .userPopout-2j1gM4 {
-    background: rgba(30, 32, 34, 0.9);
+    background: rgba(30, 32, 34, 1);
 }
 
 .userPopout-2j1gM4 .bodyInnerWrapper-2bQs1k {
@@ -1195,9 +1195,9 @@ body {
 /* Emoji --------------------------------------------------------------------------------------- */
 
 .contentWrapper-3vHNP2 {
-    --background-secondary: rgba(30, 32, 34, .9);
-    --background-secondary-alt: rgba(40, 42, 44, .9);
-    --background-tertiary: rgba(40, 42, 44, .9);
+    --background-secondary: rgba(30, 32, 34, 1);
+    --background-secondary-alt: rgba(40, 42, 44, 1);
+    --background-tertiary: rgba(40, 42, 44, 1);
 }
 
 .navButtonActive-1EqC5l {
@@ -1207,7 +1207,7 @@ body {
 /* Chat Autocomplete --------------------------------------------------------------------------------------- */
 
 #app-mount .autocomplete-3NRXG8 {
-    background: rgba(30, 32, 34, 0.9);
+    background: rgba(30, 32, 34, 1);
 }
 
 #app-mount .autocomplete-3NRXG8 .selected-3H3-RC {
